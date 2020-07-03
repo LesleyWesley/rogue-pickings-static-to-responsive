@@ -17,6 +17,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 90%;
 }
 
 h1,
@@ -53,12 +54,15 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 38px 10px 38px;
 	border-bottom: 3px solid #77a466;
+	padding: 38px 0 15px 0;
+	text-align: center;
+	width: 100%;
 }
 
 header h1 span {
@@ -67,6 +71,7 @@ header h1 span {
 
 header nav {
 	padding: 16px 0;
+	width: 100%;
 }
 
 header nav ul {
@@ -95,7 +100,6 @@ header nav ul li a{
 	align-items: center;
 	text-align: left;
 	flex-flow: row wrap;
-	flex-basis: 90%;
 }
 
 .main-image {
@@ -168,6 +172,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
